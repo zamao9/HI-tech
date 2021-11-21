@@ -184,7 +184,7 @@ a {
 }
 
 .nav_links {
-  width: auto;
+  width: 100%;
   display: block;
   padding: 15px 0;
   text-align: center;
@@ -253,6 +253,7 @@ a {
   }
 
   .nav_links {
+    width: auto;
     flex: 1 1 0;
     display: inline-block;
     border-bottom: 0;
