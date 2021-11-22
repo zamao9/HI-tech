@@ -35,6 +35,20 @@ if (isMobile.any()) {
 
 $(function () {
 
+
+
+
+
+            /* SLICK-SLIDER */
+
+$('.slider_intro').slick({
+  arrows: false,
+  initialSlide: 1,
+});
+
+
+
+
             /* TOGGLE */
 
   var nav_toggle = $("#nav_toggle"),
