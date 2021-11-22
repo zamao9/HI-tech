@@ -38,10 +38,29 @@ $(function () {
 
 
 
+            /* DATA-SCROLL */
 
-            /* SLICK-SLIDER */
+$("[data-scroll]").on("click", function(event) {
+  event.preventDefault();
 
+  var $this = $(this),
+    blockId = $this.data('scroll'),
+    nav_links = $("#nav_links"),
+    blockOffset = $(blockId).offset().top - document.querySelector('header').offsetHeight;
 
+  if (nav.toggleClass("active")) {
+    nav_toggle.removeClass("active");
+    nav.removeClass("active");
+    header.removeClass("active");
+  }
+
+  $("#nav a").removeClass("active");
+  $this.addClass("active");
+
+  $("html, body").animate ({
+  scrollTop: blockOffset
+  }, 900);
+});
 
 
 
