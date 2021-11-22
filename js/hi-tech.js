@@ -41,10 +41,7 @@ $(function () {
 
             /* SLICK-SLIDER */
 
-$('.slider_intro').slick({
-  arrows: false,
-  initialSlide: 1,
-});
+
 
 
 
