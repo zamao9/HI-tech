@@ -107,10 +107,14 @@ $("[data-collapse]").on("click", function(event) {
   if ($(window).width() <= 767) {
     $('.slider').slick( {
       slidesToShow: 1,
+      slideToScroll: 1,
       arrows: false,
       dots: true,
       centerMode: true,
       infinite: true,
+      speed: 500,
+      easing: 'ease',
+      waitForAnimate: false,
   });
 
   }

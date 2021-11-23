@@ -581,10 +581,8 @@ span {
   background-color: #fafafa;
 }
 
-.services_container {
-}
-
 .services_items {
+  position: relative;
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -610,9 +608,6 @@ span {
   opacity: 0;
 }
 
-.services_title {
-}
-
 .services_text {
   margin: 0;
 }
@@ -624,6 +619,15 @@ span {
 .services_items:hover
 .services_body {
   transform: translate(0, -35%);
+}
+
+.services_links {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 
@@ -770,7 +774,7 @@ span {
   .services_text {
     text-align: center;
   }
-
+}
 
 
 
@@ -949,6 +953,14 @@ span {
     text-align: center;
   }
 
+    /* SERVICES */
+  .services_title {
+    text-align: center;
+  }
+
+  .services_text {
+    text-align: center;
+  }
 
 
 }
