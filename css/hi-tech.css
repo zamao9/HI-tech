@@ -391,7 +391,7 @@ span {
 }
 .accordeon_btn:hover {
   color: rgb(0 0 0 / 50%);
-  text-shadow: 0 0 2px rgb(0 0 0 / 50%);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 .accordeon_btn:after {
   color: rgb(0 0 0 / 50%);
@@ -588,10 +588,6 @@ span {
 
   .accordeon_text {
     text-align: left;
-  }
-
-  .accordeon_btn {
-    margin: 0;
   }
 
   .accordeon_collapse {
