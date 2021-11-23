@@ -353,13 +353,13 @@ span {
   margin-bottom: 20px;
 }
 
-.img {
+.all_img {
   width: 100%;
   max-width: 400px;
   height: 240px;
   background-color: rgba(0, 0, 0);
 }
-.img img {
+.all_img img {
   display: block;
   width: 100%;
   height: 100%;
