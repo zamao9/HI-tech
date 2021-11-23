@@ -102,7 +102,21 @@ $("[data-collapse]").on("click", function(event) {
 
 
 
-  /*    */
+            /* SLIDER */
+
+  if ($(window).width() <= 767) {
+    $('.slider').slick( {
+      slidesToShow: 1,
+      arrows: false,
+      dots: true,
+      centerMode: true,
+      infinite: true,
+  });
+
+  }
+
+
+
 
 
 

@@ -45,7 +45,7 @@ span {
   width: 100%;
 
   position: fixed;
-  z-index: 1000;
+  z-index: 100000;
   top: 0;
   left: 0;
 
@@ -576,6 +576,114 @@ span {
 
 
 
+/* SERVICES */
+.services_section {
+  background-color: #fafafa;
+}
+
+.services_container {
+}
+
+.services_items {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  padding: 30px 20px;
+  margin: 0 3px;
+  background-color: #fff;
+}
+
+.services_content {
+  overflow: hidden;
+}
+
+.services_icon {
+  transition: all 1s ease;
+}
+.services_items:hover
+.services_icon {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+.services_title {
+}
+
+.services_text {
+  margin: 0;
+}
+
+.services_body {
+  transition: all 0.4s ease;
+
+}
+.services_items:hover
+.services_body {
+  transform: translate(0, -35%);
+}
+
+
+/* SLIDER */
+.slick-list {
+  overflow: hidden;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.slick-track {
+  display: flex;
+}
+.slick-slide {
+  flex: 1 0 284px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+}
+
+.slick-dots ul {
+  display: flex;
+  text-align: center;
+}
+
+.slick-dots li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+
+  padding: 0;
+  background-color: rgba(0 0 0 / 50%);
+  box-shadow: 0 0 3px rgba(0, 0, 0);
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+.slick-active button {
+  background-color: rgb(224 255 255 / 100%);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
 
 
 
@@ -640,6 +748,27 @@ span {
   }
   .works_img img {
     object-fit: cover;
+  }
+
+  /* SLIDER */
+  .slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .services_items {
+    flex: 1 1 32%;
+    max-width: 33%;
+    margin: 0 3px 6px;
+  }
+
+  .services_title {
+    text-align: center;
+  }
+
+  .services_text {
+    text-align: center;
   }
 
 
@@ -819,6 +948,8 @@ span {
   .list_text {
     text-align: center;
   }
+
+
 
 }
 
