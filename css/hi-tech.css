@@ -329,7 +329,7 @@ span {
 
 
 
-/* ABOUT_SECTION */
+/* ABOUT */
 .about_items {
   display: flex;
   max-width: 400px;
@@ -368,7 +368,7 @@ span {
 
 
 
-/* ACORDEON_SECTION */
+/* ACORDEON */
 .accordeon_section {
   background-color: #fafafa;
 }
@@ -443,7 +443,7 @@ span {
 
 
 
-/* PRODUCTS_SECTION */
+/* PRODUCTS */
 .section_header {
   width: 100%;
   max-width: 500px;
@@ -479,7 +479,7 @@ span {
   opacity: 1;
 }
 
-.products_span {
+.another_span {
   font-size: 18px;
   font-weight: 300;
   color: #ccc;
@@ -498,6 +498,54 @@ span {
 
 
 
+
+/* PRICING */
+.pricing_section {
+  background-color: #fafafa;
+}
+
+.pricing_items {
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  background-color: #fff;
+
+  padding: 30px 0;
+  margin: 0 auto 30px;
+}
+
+.icons {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.pricing_list {
+  position: relative;
+}
+.pricing_list:after {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  top: 50%;
+  right: 20%;
+  transform: translate(0, -50%);
+
+  display: block;
+  width: 10px;
+  height: 2px;
+  background-color: #1E90FF;
+  box-shadow: 0 0 2px #1E90FF;
+}
+
+.pricing_btn {
+  width: 120px;
+  font-size: 15px;
+}
+
+
+
+
+/* WORKS */
 
 
 
@@ -681,6 +729,34 @@ span {
 
   .text {
     text-align: left;
+  }
+
+  /* PRICING */
+  .pricing_container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pricing_items {
+    flex: 1 1 0;
+
+    margin: 50px 0;
+  }
+
+  .pricing_second_item {
+    margin: 0;
+  }
+
+  .pricing_title {
+    text-align: center;
+  }
+
+  .pricing_text {
+    text-align: center;
+  }
+
+  .list_text {
+    text-align: center;
   }
 
 }
