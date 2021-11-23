@@ -390,11 +390,17 @@ span {
   text-shadow: 0 0 2px rgb(224 255 255);
 }
 .accordeon_btn:hover {
-  color: rgba(0, 0, 0, 0.5);
-  text-shadow: 0 0 2px rgba(0, 0, 0);
+  color: rgb(0 0 0 / 50%);
+  text-shadow: 0 0 2px rgb(0 0 0 / 50%);
 }
 .accordeon_btn:after {
+  color: rgb(0 0 0 / 50%);
+  text-shadow: 0 0 2px rgb(0 0 0 / 50%);
   background-color: rgb(224 255 255 / 100%);
+}
+.accordeon_btn:hover:after {
+  color: rgb(224 255 255 / 100%) !important;
+  text-shadow: 0 0 2px rgb(224 255 255 / 100%));
 }
 
 
