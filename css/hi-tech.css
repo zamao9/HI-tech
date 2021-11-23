@@ -400,18 +400,18 @@ span {
   margin-top: 0;
 }
 
-.accordeon_collapse_title {
+.accordeon_collapse_title.active {
   background-color: rgb(224 255 255 / 100%);
   color: rgba(0, 0, 0, 0.5);
   text-shadow: 0 0 2px rgb(0 0 0 / 50%);
-
-  margin-bottom: 0;
-  padding: 15px 0;
 }
-.accordeon_collapse_title.active {
+.accordeon_collapse_title {
   background-color: rgb(135 206 250 / 100%);
   color: rgb(224 255 255 / 100%);
   text-shadow: 0 0 2px rgb(224 255 255);
+
+  margin-bottom: 0;
+  padding: 15px 0;
 }
 
 .accordeon_collapse_body {
