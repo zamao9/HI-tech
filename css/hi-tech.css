@@ -389,10 +389,19 @@ span {
   color: rgb(224 255 255 / 100%);
   text-shadow: 0 0 2px rgb(224 255 255);
 }
+.accordeon_btn:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 2px rgba(0, 0, 0);
+}
+.accordeon_btn:after {
+  background-color: rgb(224 255 255 / 100%);
+}
+
 
 .accordeon_collapse {
   width: 100%;
   max-width: 350px;
+  cursor: pointer;
 
   margin-top: 15px;
 }
