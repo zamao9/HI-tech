@@ -78,8 +78,8 @@ span {
 }
 .header.active
 .logo {
-  color: rgb(0 0 0 / 50%);
-  text-shadow: 0 0 3px rgb(0 0 0 / 50%);
+  color: rgb(224 255 255 / 100%);
+  text-shadow: 0 0 2px rgb(224 255 255 / 100%)
 }
 
 
@@ -137,8 +137,8 @@ span {
 .nav_toggle.active
 .toggle_items:before {
   transform: translate(1px, 8px) rotate(45deg);
-  background-color: rgb(0 0 0 / 70%);
-  box-shadow: 0 0 3px rgb(0 0 0 / 50%);
+  background-color: rgb(224 255 255 / 100%);
+  box-shadow: 0 0 2px rgb(224 255 255 / 100%);
 }
 
 .toggle_items:after {
@@ -147,8 +147,8 @@ span {
 .nav_toggle.active
 .toggle_items:after {
   transform: translate(1px, -8px) rotate(-45deg);
-  background-color: rgb(0 0 0 / 70%);
-  box-shadow: 0 0 3px rgb(0 0 0 / 50%);
+  background-color: rgb(224 255 255 / 100%);
+  box-shadow: 0 0 2px rgb(224 255 255 / 100%);
 }
 
 
@@ -188,13 +188,13 @@ span {
 }
 .nav_links:hover {
   background-color: rgb(135 206 250 / 100%);
-  color: rgb(255 255 255);
-  text-shadow: 0 0 2px rgb(255 255 255 / 50%);
+  color: rgb(224 255 255 / 100%);
+  text-shadow: 0 0 2px rgb(224 255 255 / 100%)
 }
 .nav_links.active {
   background-color: rgb(135 206 250 / 100%);
-  color: rgb(255 255 255);
-  text-shadow: 0 0 2px rgb(255 255 255 / 50%);
+  color: rgb(224 255 255 / 100%);
+  text-shadow: 0 0 2px rgb(224 255 255 / 100%)
 
 }
 
@@ -269,8 +269,8 @@ span {
 
   font-size: 20px;
   font-weight: 400;
-  color: rgb(135 206 250 / 100%);
-  text-shadow: 0 0 2px rgb(135 206 250 / 100%);
+  color: rgb(0 0 0 / 50%);
+  text-shadow: 0 0 2px rgb(0 0 0 / 50%);
   text-transform: uppercase;
   cursor: pointer;
 
@@ -409,13 +409,13 @@ span {
   }
   .nav_links:hover {
     background-color: rgb(135 206 250 / 80%);
-    color: #fff;
-    text-shadow: 0 0 3px rgb(255 255 255 / 100%);
+    color: rgb(224 255 255 / 100%);
+    text-shadow: 0 0 2px rgb(224 255 255 / 100%)
   }
   .nav_links.active {
     background-color: rgb(135 206 250 / 100%);
-    color: #fff;
-    text-shadow: 0 0 3px rgb(255 255 255 / 100%);
+    color: rgb(224 255 255 / 100%);
+    text-shadow: 0 0 2px rgb(224 255 255 / 100%)
   }
 }
 
@@ -428,6 +428,10 @@ span {
   background-color: rgb(135 206 250 / 100%);
   }
 
+  .logo {
+    color: rgb(224 255 255 / 100%);
+    text-shadow: 0 0 2px rgb(224 255 255 / 100%);
+  }
   .logo:hover {
     color: rgb(0 0 0 / 50%);
     text-shadow: 0 0 3px rgb(0 0 0 / 50%);
@@ -449,8 +453,8 @@ span {
   }
 
   .nav_links {
-    color: rgb(0 0 0 / 50%);
-    text-shadow: 0 0 3px rgb(0 0 0 / 50%);
+    color: rgb(224 255 255 / 100%);
+    text-shadow: 0 0 2px rgb(224 255 255 / 100%);
 
     flex: 0 0 0;
     width: auto;
@@ -460,13 +464,13 @@ span {
   }
   .nav_links:hover {
     background: none;
-    color: rgb(224 255 255 / 100%);
-    text-shadow: 0 0 3px rgb(224 255 255 / 100%);
+    color: rgb(0 0 0 / 50%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 50%);
   }
   .nav_links.active {
     background: none;
-    color: rgb(224 255 255 / 100%);
-    text-shadow: 0 0 3px rgb(224 255 255 / 100%);
+    color: rgb(0 0 0 / 50%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 50%);
   }
 
   /* ABOUT_SECTION */
