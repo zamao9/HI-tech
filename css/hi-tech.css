@@ -385,7 +385,7 @@ span {
   margin: 0 auto 35px;
 }
 .accordeon_items:last-child {
-  justify-content: default;
+  justify-content: center;
 }
 
 .accordeon_btn {
