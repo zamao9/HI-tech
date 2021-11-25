@@ -101,27 +101,72 @@ $("[data-collapse]").on("click", function(event) {
 
 
 
-
             /* SLIDER */
 
-  if ($(window).width() <= 767) {
-    $('.slider').slick( {
-      slidesToShow: 1,
-      slideToScroll: 1,
+  if($(window).width() < 768 ) {
+    $('.services_slider').slick( {
+      slidesToShow: 2,
+      slidesToScroll: 2,
       arrows: false,
       dots: true,
-      centerMode: true,
       infinite: true,
       speed: 500,
       easing: 'ease',
+      centerMode: true,
       waitForAnimate: false,
+      responsive: [
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true
+          }
+        },
+      ]
   });
+  };
 
-  }
+  $(".brands_slider").slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 3,
+    easing: 'ease',
+    waitForAnimate: false,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 3
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
 
-
-
-
+    ]
+});
 
 
 
