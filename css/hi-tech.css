@@ -616,16 +616,18 @@ span {
 /* SLIDER */
 .services_slider .slick-list {
   overflow: hidden;
+  padding: 0 !important;
 }
 
 .services_slider .slick-track {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: space-around;
 }
+
 .services_slider .slick-slide {
-  flex: 1 0 320px;
-  width: 320px;
+  width: 290px !important;
 }
 
 .services_slider .slick-dots {
@@ -670,7 +672,7 @@ span {
 .slider_icon {
   font-size: 130px;
   color: rgba(0, 0, 0, 0.5);
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 .brands_slider .slick-list {
@@ -784,7 +786,7 @@ span {
     object-fit: cover;
   }
 
-  /* SLIDER */
+  /* SERVICES_SLIDER */
   .services_slider {
     display: flex;
     flex-wrap: wrap;
@@ -1017,7 +1019,7 @@ span {
     transform: translate(0, -35%);
   }
 
-  /* SLIDER */
+  /* SERVICES_SLIDER */
   .services_slider {
     display: flex;
     flex-wrap: wrap;
@@ -1036,6 +1038,15 @@ span {
 
   .services_text {
     text-align: center;
+  }
+
+  /* BRANDS */
+  .slider_icon {
+    transition: all 0.4s ease;
+  }
+  .slider_icon:hover {
+    color: rgb(135 206 250 / 100%);
+    text-shadow: 0 0 3px rgb(135 206 250 / 100%);
   }
 
 }

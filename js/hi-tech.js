@@ -119,7 +119,6 @@ $("[data-collapse]").on("click", function(event) {
           breakpoint: 700,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1,
             centerMode: true
           }
         },
