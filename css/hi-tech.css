@@ -384,6 +384,9 @@ span {
 
   margin: 0 auto 35px;
 }
+.accordeon_items:last-child {
+  justify-content: default;
+}
 
 .accordeon_btn {
   background-color: rgb(135 206 250 / 100%);
