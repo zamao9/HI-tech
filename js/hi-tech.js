@@ -170,6 +170,21 @@ $("[data-collapse]").on("click", function(event) {
 
 
 
+            /* IMG_SHOW */
+
+  function view(works_img) {
+      viewwin = window.open(works_img,'viewwin', 'width=600,height=300');
+   };
+
+
+
+
+
+
+
+
+
+
 
 
 })
