@@ -99,6 +99,18 @@ $("[data-collapse]").on("click", function(event) {
 });
 
 
+$("[data-coll]").on("click", function(event) {
+  event.preventDefault();
+
+  var $this = $(this),
+      blockId = $this.data('collapse');
+
+  if (window.innerWidth < 768) {
+    $(blockId).slideToggle();
+  }
+});
+
+
 
 
             /* SLIDER */
@@ -167,14 +179,6 @@ $("[data-collapse]").on("click", function(event) {
     ]
 });
 
-
-
-
-            /* IMG_SHOW */
-
-  function view(works_img) {
-      viewwin = window.open(works_img,'viewwin', 'width=600,height=300');
-   };
 
 
 
