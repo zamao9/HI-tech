@@ -872,6 +872,11 @@ span {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .contacts_items {
+    margin: 0;
+  }
+
+
   .contacts_title {
     text-align: left;
   }
