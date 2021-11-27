@@ -830,7 +830,11 @@ span {
 .footer_links {
   width: 100%;
   display: block;
-  padding: 5px 0px;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+.footer_links:last-child {
+  border-bottom: none;
 }
 .footer_links:hover {
   background-color: #6c90c3 !important;
@@ -977,6 +981,10 @@ span {
     border-top: none;
   }
 
+  .footer_links {
+    border-bottom: none !important;
+    padding: 5px 0;
+  }
   .footer_links:hover {
     background: none !important;
 
@@ -987,7 +995,6 @@ span {
     text-transform: capitalize;
     transition: all 0.4s ease;
   }
-
   .footer_links:hover
   .footer_text {
     color: #c1d3ed;
