@@ -89,25 +89,16 @@ $("[data-collapse]").on("click", function(event) {
   event.preventDefault();
 
   var $this = $(this),
-      blockId = $this.data('collapse'),
-      link = $("#link");
+      blockId = $this.data('collapse');
 
-  link.toggleClass("active");
+  if (window.innerWidth >= 768 && (blockId == '#footer_collapse1' || blockId == '#footer_collapse2' || blockId == '#footer_collapse3')) {
+    return;
+  }
+
+
   $this.toggleClass("active");
   $(blockId).slideToggle();
 
-});
-
-
-$("[data-coll]").on("click", function(event) {
-  event.preventDefault();
-
-  var $this = $(this),
-      blockId = $this.data('collapse');
-
-  if (window.innerWidth < 768) {
-    $(blockId).slideToggle();
-  }
 });
 
 
