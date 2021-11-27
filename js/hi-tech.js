@@ -116,7 +116,6 @@ $("[data-collapse]").on("click", function(event) {
       speed: 500,
       easing: 'ease',
       centerMode: true,
-      waitForAnimate: false,
       responsive: [
         {
           breakpoint: 700,
@@ -136,7 +135,6 @@ $("[data-collapse]").on("click", function(event) {
     slidesToShow: 5,
     slidesToScroll: 3,
     easing: 'ease',
-    waitForAnimate: false,
     responsive: [
       {
         breakpoint: 1023,
